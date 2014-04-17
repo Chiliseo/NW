@@ -1,0 +1,113 @@
+/*  courtesy of HTML5 Boilerplate  */
+html, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, header, hgroup, 
+menu, nav, section, summary, time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}                  
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+nav ul { list-style:none; }
+
+
+
+/*body, select, input, textarea { color: #444; }*/
+html { overflow-y: scroll; }
+
+
+
+	#dropdown {
+		width: 960px;
+margin: 0 auto;
+/* border: solid 1px #ccc; */
+border-top: none;
+display: none;
+position: relative;
+overflow: hidden;
+height: 175px;
+background: url(../images/border-header.png) repeat-x;
+background-size: 100% 100%;
+
+	}
+	
+		#ajax {
+			padding: 20px;
+		}
+		
+			#ajax h2 {
+				text-align: center;
+				font-size: 40px;
+				color: #bbb;
+			}
+	
+	.loading {
+		
+		background:  url(../images/ajax-loader.gif) no-repeat center center !important;
+		background-size: 100% 100%
+	}
+	
+	#dropdown.minheight {
+		min-height: 190px;
+		height: auto;
+		_height: 190px; /* for I6 */
+	}
+	
+	#main {
+		padding: 20px 0 0 0;
+	}
+	
+	.close {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		font: menu;
+		font-size: 16px;
+	}
+	
+	#ajax {
+		overflow: hidden;
+	}
+
+	#ajax ul {
+		float: left;
+		width: 180px;
+		padding: 0 30px 0 10px;
+	}
+	
+		#ajax ul li {
+			display: block;
+			width: 100%;
+			margin: 0;
+			overflow: hidden;
+			font-size: 14px;
+			border: 0;
+		}
+		#ajax ul li a{display: table;
+color: #00a1d8;
+border-collapse: separate;
+border-spacing: 6px 0;
+height: 44px;
+width: 100%;
+margin: 0;
+border: 0;}
+		.megamenu-link-text{
+			display: table-cell;
+vertical-align: middle;
+width: 100%;
+color: #00a1d8;
+border-bottom: 1px solid #f0f0f0;
+		}
+		.aerospace_defence{border-top: 1px solid #f0f0f0;}
+		footer p {
+			text-align: center;
+		}
+		.link-list nav{margin-top: 25px;}

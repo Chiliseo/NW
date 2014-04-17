@@ -1,0 +1,5 @@
+a{text-decoration: none;color: #00a1d5;}
+li{list-style: none;}
+@font-face { font-family: Raleway; src: url('../fonts/Raleway-ExtraLight.otf'); } 
+@font-face { font-family: HelveticaLTStd; font-weight: bold; src: url('../fonts/Helvetica.otf'); }
+.titulo{font-family: HelveticaLTStd;font-size: 3.7em; text-align: center; color: #5f6e71;font-weight: normal;}
