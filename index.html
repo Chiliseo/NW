@@ -42,9 +42,13 @@
                 <li class="menuPosition2"><a href="menu/capacitaciones.html">Capacitación</a></li>
                 <li class="menuPosition2"><span><a href="">Revista NinjaTech</a></span></li>
                 <li class="menuPosition2"><span><a href="">Contáctenos</a></span></li>
+             
             </ul>
         </nav>
     </div>    
+    <div id="panelbutton">
+    <a href="menu/panel.html" data-slidepanel="panel" id="menupanel">MENU</a>
+    </div>
     </div>
 </div>
 </header>
@@ -52,10 +56,10 @@
 <div id="wrapper" class="container">
     <article class="grid">
         <ul>
-            <li class="cell1"><a href="/"><img src="images/cell1.jpg"></a></li>
+            <li class="cell1"><a href=""><img src="images/cell1.jpg"></a></li>
             <li class="cell2">
             <article>
-            <a href="/">
+            <a href="">
                 <div><img src="images/cell2.jpg"></div>
                 <div class="cuadro">
                 <header><div class="ico-1"></div><div><h3>¡Anúnciate Ahora!</h3></div></header>
@@ -71,16 +75,75 @@
     </article>
 </div>
 <footer></footer>
+
 <script src="js/jquery-1.4.2.js"></script>
 <script src="js/general.js?ver=2"></script>
 <script type="text/javascript">
-    $( window ).resize(function() {
+//     $( window ).resize(function() {
+//          var ancho=$( window ).width();
+//          if (ancho<=768) {
+//   // $( "#wrapper" ).append( "<div>Handler for .resize() called.</div>" );
+//   // console.log(ancho);
+// }
+// });
+
+</script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<!--Include the slidepanel plugin -->
+<script type="text/javascript" src="js/jquery.slidepanel.js"></script>
+<!--Add the css -->
+<link rel="stylesheet" type="text/css" href="css/jquery.slidepanel.css">
+<script type="text/javascript">
+      $(document).ready(function(){
+          $('[data-slidepanel]').slidepanel({
+              orientation: 'left',
+              mode: 'push'
+          });
+       
+      });
+         $('#menupanel').hide();
+
          var ancho=$( window ).width();
-         if (ancho<=768) {
-  // $( "#wrapper" ).append( "<div>Handler for .resize() called.</div>" );
-  // console.log(ancho);
+         var anchoventana=screen.width;
+
+         if (ancho<=768 || anchoventana<=768) {
+   $('#menupanel').show("slow");
+   $('#zone').hide("slow");
+   $('#firstpanel').hide("slow");
+   
+   $('#menuWrapper2').hide("slow");
+
+
+}
+else{
+    $('#menupanel').hide();
+ $('#firstpanel').show("slow");
+ $('#zone').show("slow");
+$('#menuWrapper2').show("slow");
+}
+
+            $( window ).resize(function() {
+         var ancho=$( window ).width();
+         var anchoventana=screen.width;
+         
+         if (ancho<=768 || anchoventana<=768) {
+   $('#menupanel').show("slow");
+   $('#zone').hide("slow");
+   $('#firstpanel').hide("slow");
+   
+   $('#menuWrapper2').hide("slow");
+
+
+}
+else{
+    $('#menupanel').hide();
+ $('#firstpanel').show("slow");
+ $('#zone').show("slow");
+$('#menuWrapper2').show("slow");
 }
 });
 </script>
+
 </body>
 </html>

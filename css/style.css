@@ -1,5 +1,8 @@
 @font-face { font-family: HelveticaLTStd; src: url('../fonts/Helvetica.otf'); }
 @font-face { font-family: Raleway; src: url('../fonts/Raleway-ExtraLight.otf'); } 
+#panelbutton{padding: 36px;
+float: right;
+}
 html{width: 100%;height: 100%;display: block;margin: 0;border: 0;background-color: #f0f0f0;padding:0;outline:0;font-size:100%;vertical-align:baseline;}
 body{margin: 0;padding: 0;color: #465a64;font-family: Raleway,arial;background-color: #f0f0f0;width: 100%}
 
@@ -76,7 +79,7 @@ header{}
 #secondpanel{height: 94px;position: relative;top: auto;z-index: 900;background: transparent url(../images/border-header.png) repeat-x bottom;width: 100%;}
 #zone2{margin: 0 auto;height: 92px;}
 .menuPosition2{display: inline;list-style: none;float: left;height: 92px;}
-.menuPosition2 a{padding: 0 10px;font-size: 1em;color: #00a1d5;text-decoration: none;font-family: Raleway,arial;font-style: normal;display: table-cell;vertical-align: middle;height: 92px;cursor: pointer;}
+.menuPosition2 a{padding: 0 8px;font-size: 1em;color: #00a1d5;text-decoration: none;font-family: Raleway,arial;font-style: normal;display: table-cell;vertical-align: middle;height: 92px;cursor: pointer;}
 /*.menuPosition2 a:hover{background-color: #f0f0f0;color: #324146;}*/
 .menuPosition2 a:hover{background-color: #f1f0ee;}
 
@@ -88,10 +91,11 @@ header{}
 .cell1 img{
 	width: 500px;height: 371px;
 }
-.cell2{float: left;margin-bottom: 12px;overflow: hidden;position: relative;margin-left: 6px;margin-right: 6px;width: 244px;list-style: none;}
+.cell2{float: left;margin-bottom: 12px;overflow: hidden;position: relative;margin-left: 6px;margin-right: 6px;width: 210px;list-style: none;}
 .cell2 article{color: #fff !important;
 background-color: #66c6e7;height: 371px;}
 .cell2 article:hover{background-color: #40b8e1;}
+.cell2 img{width: 100%;}
 .cell2 a{text-decoration: none;color: #fff;}
 .cell2 header{min-height: 58px;
 width: 100%;}
@@ -137,7 +141,7 @@ header{}
 #secondpanel{height: 94px;position: relative;top: auto;z-index: 900;background: transparent url(../images/border-header.png) repeat-x bottom;width: 100%;}
 #zone2{margin: 0 auto;height: 92px;}
 .menuPosition2{display: inline;list-style: none;float: left;height: 92px;}
-.menuPosition2 a{padding: 0 10px;font-size: 1em;color: #00a1d5;text-decoration: none;font-family: Raleway,arial;font-style: normal;display: table-cell;vertical-align: middle;height: 92px;cursor: pointer;width: 10px;}
+.menuPosition2 a{padding: 0 9px;font-size: 1em;color: #00a1d5;text-decoration: none;font-family: Raleway,arial;font-style: normal;display: table-cell;vertical-align: middle;height: 92px;cursor: pointer;width: 10px;}
 /*.menuPosition2 a:hover{background-color: #f0f0f0;color: #324146;}*/
 .menuPosition2 a:hover{background-color: #f1f0ee;}
 
@@ -216,6 +220,7 @@ header{}
 .cell2 article{color: #fff !important;
 background-color: #66c6e7;height: 371px;}
 .cell2 article:hover{background-color: #40b8e1;}
+.cell2 img{width: 100%;}
 .cell2 a{text-decoration: none;color: #fff;}
 .cell2 header{min-height: 58px;
 width: 100%;}
