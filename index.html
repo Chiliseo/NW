@@ -47,7 +47,7 @@
         </nav>
     </div>    
     <div id="panelbutton">
-    <a href="menu/panel.html" data-slidepanel="panel" id="menupanel">MENU</a>
+    <a href="menu/panel.html" data-slidepanel="panel" id="menupanel" style="display:none">MENU</a>
     </div>
     </div>
 </div>
@@ -83,7 +83,7 @@
                 <a href="">
              <div><img src="images/cell3.jpg"></div>
                 <div class="cuadro">
-                <header><div class="ico-3"></div><div><h3>Expertos en Manejo de Redes sociales</h3></div></header>
+                <header><div class="ico-3"></div><div><h3>Community Management</h3></div></header>
                 <div id="cont-text"><p>Impulsamos su empresa y productos específicos a clientes objetivos de forma profesional, entendemos que administrar redes sociales es más que subir imágenes y crear campañas.</p></div>
                 </div>
             </a>
@@ -92,11 +92,12 @@
                 <a href="">
              <div><img src="images/cell4.jpg"></div>
                 <div class="cuadro">
-                <header><div class="ico-4"></div><div><h3>Business Intelligence</h3></div></header>
-                <div id="cont-text"><p>Asesoria y administracion de proyectos utilizando metodologias ágiles y DataWarehouse (Kimball e Inmon)</p></div>
+                <header><div class="ico-4"></div><div><h3>Clases en línea gratuitas</h3></div></header>
+                <div id="cont-text"><p>Para estudiantes y personas que desean iniciar su aprendizaje en diferentes áreas de Desarrollo, Infraestructura, Diseño y muchas otras tecnologías utilizadas en I.T.</p></div>
                 </div>
             </a>
             </article></li>
+               <li class="cell1"><a href=""><img src="images/cell5.jpg"></a></li>
 
         </ul>
     </article>
@@ -135,7 +136,9 @@
          var anchoventana=screen.width;
 
          if (ancho<=768 || anchoventana<=768) {
+   $('#menupanel').css({display:block});
    $('#menupanel').show("slow");
+
    $('#zone').hide("slow");
    $('#firstpanel').hide("slow");
    
