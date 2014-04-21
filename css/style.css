@@ -275,7 +275,19 @@ background-color: #0080ac;height: 380px;}
 .ico-3{width: 58px;height: 58px;float: left;margin: 0;background-image: url(../images/icons.png);background-repeat: no-repeat;background-position: 0 -230px;background-color: rgba(0,0,0,0.18);}
 .ico-4{width: 58px;height: 58px;float: left;margin: 0;background-image: url(../images/icons.png);background-repeat: no-repeat;background-position: 0 -350px;background-color: rgba(0,0,0,0.18);}
 /*footer ticker*/
-footer{background: #0f4155;color: #fff;width: 100%;display: block;position: fixed;bottom: 0;z-index: 1000;height: 50px;}
+/*footer{background: #0f4155;color: #fff;width: 100%;display: block;position: fixed;bottom: 0;z-index: 1000;height: 50px;}*/
+.large-footer{background: #0f4155;color: #fff;width: 100%;display: block;position: fixed;bottom: 0;z-index: 1000;height: 50px;
+	-webkit-transition: height 0.2s linear; 
+    -moz-transition: height 0.2s linear; 
+    -ms-transition: height 0.2s linear; 
+    -o-transition: height 0.2s linear; 
+    transition: height 0.2s linear;   }
+.small-footer{background: #0f4155;color: #fff;width: 100%;display: block;position: fixed;bottom: 0;z-index: 1000;height: 20px;
+	-webkit-transition: height 0.2s linear; 
+    -moz-transition: height 0.2s linear; 
+    -ms-transition: height 0.2s linear; 
+    -o-transition: height 0.2s linear; 
+    transition: height 0.2s linear; }
 }
 
 /* Large screens ----------- */

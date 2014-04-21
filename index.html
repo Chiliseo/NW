@@ -141,7 +141,12 @@
         </ul>
     </article>
 </div>
-<footer></footer>
+<footer class="large-footer">
+    <div class="container ticker-wrapper">
+        <a class="close-ticker"><img src="images/close-ticker.png"></a>
+        <a class="open-ticker"><img src="images/top.png"></a>
+    </div>
+</footer>
 
 <script src="js/jquery-1.4.2.js"></script>
 <script src="js/general.js?ver=2"></script>
@@ -167,7 +172,25 @@
               orientation: 'left',
               mode: 'push'
           });
-       
+          $('.open-ticker').hide();
+
+
+       $('.close-ticker').on('click',function(event){
+event.preventDefault();
+
+$('footer').removeClass( "large-footer" ).addClass( "small-footer" );
+$('.close-ticker').hide();
+$('.open-ticker').show();
+       });
+
+
+          $('.open-ticker').on('click',function(event){
+event.preventDefault();
+ 
+$('footer').removeClass( "small-footer" ).addClass( "large-footer" );
+$('.close-ticker').show();
+$('.open-ticker').hide();
+       });
       });
          $('#menupanel').hide();
 
@@ -175,7 +198,7 @@
          var anchoventana=screen.width;
 
          if (ancho<=768 || anchoventana<=768) {
-   $('#menupanel').css({display:block});
+   $('#menupanel').css("display","block");
    $('#menupanel').show("slow");
 
    $('#zone').hide("slow");
@@ -186,7 +209,7 @@
 
 }
 else{
-    $('#menupanel').css({display:none});
+    $('#menupanel').css("display","none");
     $('#menupanel').hide();
  $('#firstpanel').show("slow");
  $('#zone').show("slow");
@@ -198,6 +221,7 @@ $('#menuWrapper2').show("slow");
          var anchoventana=screen.width;
          
          if (ancho<=768 || anchoventana<=768) {
+            $('#menupanel').css("display","block");
    $('#menupanel').show("slow");
    $('#zone').hide("slow");
    $('#firstpanel').hide("slow");
@@ -207,6 +231,7 @@ $('#menuWrapper2').show("slow");
 
 }
 else{
+     $('#menupanel').css("display","none");
     $('#menupanel').hide();
  $('#firstpanel').show("slow");
  $('#zone').show("slow");
