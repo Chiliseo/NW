@@ -12,7 +12,7 @@ src: url('../fonts/Helvetica.otf') format("opentype");
 
 @font-face {
     font-family: 'segoe_uiregular';
-    src: url('segoeui-webfont.eot');
+    src: url('../fonts/segoeui-webfont.eot');
     src: url('../fonts/segoeui-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/segoeui-webfont.woff') format('woff'),
          url('../fonts/segoeui-webfont.ttf') format('truetype');
