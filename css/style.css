@@ -42,7 +42,7 @@ float: right;
 }
 .fondo{background-color: #fff;height: 100%;min-height: 100%;position: relative;}
 .tittle-article{font-family:'segoe_uibold' }
-.left p{font-family: 'segoe_uiregular';}
+.left p{font-family: 'segoe_uiregular';font-size: 0.9em;}
 html{width: 100%;height: 100%;display: block;margin: 0;border: 0;background-color: #f0f0f0;padding:0;outline:0;font-size:100%;vertical-align:baseline;}
 body{margin: 0;padding: 0;color: #465a64;font-family: Raleway,arial;background-color: #f0f0f0;width: 100%;height: 100%;position: relative;}
 .large-footer{background: #0f4155;color: #fff;width: 100%;display: block;position: fixed;bottom: 0;z-index: 1000;height: 50px;
