@@ -6,11 +6,11 @@ src: url('../fonts/Helvetica.otf') format("opentype");
 
 @font-face {font-family:"Raleway";
 src:url("../fonts/Raleway-Thin.eot?") format("eot"),
-url("../fonts/Raleway-Thin.woff") format("woff"),
+
 url("../fonts/Raleway-Thin.ttf") format("truetype"),
 url("../fonts/Raleway-Thin.svg#Raleway-Thin") format("svg");
 font-weight:normal;
-font-style:normal;}
+font-style:normal;}	
 
 
 @font-face {
@@ -87,7 +87,7 @@ header{}
 .containerLogo{width: 10%;float: left;height: 100%;margin-left: 2%}
 #zone{margin-left: auto;margin-right: auto;height: 37px;}
 /*Segundo Menu*/
-.logo{width: 90%;border-radius: 50%;border-bottom: solid rgba(42, 38, 38, 0.29) 4px;margin: 6px 0;}
+.logo{width: 90%;border-radius: 50%;/*border-bottom: solid rgba(42, 38, 38, 0.29) 4px;*/margin: 6px 0;}
 #menu2{margin: 0 auto; height: 92px;}
 #menu2 ul{margin: 0;padding: 0; height: 92px;}
 #menuWrapper2{float: left;display: inline;height: 92px;width: 70%;}
@@ -123,7 +123,7 @@ header{}
 .containerLogo{width: 10%;float: left;height: 100%;margin-left: 2%}
 #zone{margin-left: auto;margin-right: auto;height: 37px;}
 /*Segundo Menu*/
-.logo{width: 90%;border-radius: 50%;border-bottom: solid rgba(42, 38, 38, 0.29) 4px;margin: 6px 0;}
+.logo{width: 90%;border-radius: 50%;/*border-bottom: solid rgba(42, 38, 38, 0.29) 4px;*/margin: 6px 0;}
 #menu2{margin: 0 auto; height: 92px;}
 #menu2 ul{margin: 0;padding: 0; height: 92px;}
 #menuWrapper2{float: left;display: inline;height: 92px;width: 80%;}
@@ -196,7 +196,7 @@ header{}
 .containerLogo{width: 10%;float: left;height: 100%;margin-left: 2%;margin-right: 2%;}
 #zone{margin-left: auto;margin-right: auto;height: 37px;}
 /*Segundo Menu*/
-.logo{width: 117%;border-radius: 50%;border-bottom: solid rgba(42, 38, 38, 0.29) 4px;margin: 6px 0;}
+.logo{width: 117%;border-radius: 50%;/*border-bottom: solid rgba(42, 38, 38, 0.29) 4px;*/margin: 6px 0;}
 #menu2{margin: 0 auto; height: 92px;}
 #menu2 ul{margin: 0;padding: 0; height: 92px;}
 #menuWrapper2{float: left;display: inline;height: 92px;width: 70%;}
@@ -269,7 +269,7 @@ header{}
 .containerLogo{width: 100px;float: left;height: 100%;margin-left: 2%;margin-right: 2px;}
 #zone{margin-left: auto;margin-right: auto;height: 37px;}
 /*Segundo Menu*/
-.logo{width: 90px;border-radius: 50%;border-bottom: solid rgba(42, 38, 38, 0.29) 4px;margin: 6px 0;}
+.logo{width: 90px;border-radius: 50%;/*border-bottom: solid rgba(42, 38, 38, 0.29) 4px;*/margin: 6px 0;}
 #menu2{margin: 0 auto; height: 92px;}
 #menu2 ul{margin: 0;padding: 0; height: 92px;}
 #menuWrapper2{float: left;display: inline;height: 92px;width: 80%;}
@@ -287,9 +287,7 @@ header{}
 .cuadro{margin-top: -5px;}
 .cuadro header{margin-bottom: 10px;}
 .cell1{float: left;overflow: hidden;position: relative;margin-left: 6px;margin-right: 6px;list-style: none;}
-.cell1 img{
-	width: 660px;height: 380px;
-}
+.cell1 img{width: 660px;height: 380px;}
 .cell2{float: left;margin-bottom: 12px;overflow: hidden;position: relative;margin-left: 6px;margin-right: 6px;width: 324px;list-style: none;}
 .cell2 article{color: #fff !important;
 background-color: #66c6e7;height: 380px;}
@@ -330,7 +328,16 @@ background-color: #0080ac;height: 380px;}
 .left{width: 700px;text-align: justify;margin: 20px 20px;}
 .left img{width: 100%;margin: 15px 0px;}
 .left h1{font-size: 2.3em;padding-top: 10px;}
-
+.triangulo{
+border-width: 50px 20px 0;
+border-color: #fff transparent;
+border-style: solid;
+width: 0;
+height: 0;
+top: -20px;
+left: 25%;
+position: relative;
+}
 }
 
 /* Large screens ----------- */
