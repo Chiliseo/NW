@@ -11,7 +11,7 @@ overflow: hidden;
             display: none;
         }
         .cb_slide_panel.panel_left, .cb_slide_panel.panel_right {
-            width: 278px;
+            width: 220px;
             height: 100%;
         }
         .cb_slide_panel.panel_right {

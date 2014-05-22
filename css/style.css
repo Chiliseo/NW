@@ -60,6 +60,85 @@ body{margin: 0;padding: 0;color: #465a64;font-family: Raleway,arial;background-c
 /* Smartphones (portrait and landscape) --------960px--- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
+body{width: 320px;}
+.menuPosition{display: block;float: left;height: 37px;vertical-align: middle;text-align: center;padding: 0 5px;text-decoration: none;cursor: pointer;}
+.menuPosition a{height: 37px;display: block;line-height: 37px;color: #fff;text-decoration: none;font-family: arial;font-size: 15px;font-style: normal;word-wrap: break-word;padding: 0 6px;}
+.menuPosition a:hover{background-color: #f0f0f0;color: #324146;}
+header{}
+#menu{margin: 0 auto;}
+#menu ul{margin: 0;padding: 0;}
+#menuWrapper{width: 80%;/* margin-right: 4px; *//* margin-left: 4px; */height: 37px;margin: 0 auto;}
+#firstpanel{display: block;background-color: #314048;color: #fff;height: 37px;position: relative;overflow: hidden;}
+.container{width: 320px;}   
+.containerLogo{width: 10%;float: left;height: 100%;margin-left: 2%}
+#zone{margin-left: auto;margin-right: auto;height: 37px;}
+/*Segundo Menu*/
+.logo{width: 80px;border-radius: 50%;/*border-bottom: solid rgba(42, 38, 38, 0.29) 4px;*/margin: 6px 0;}
+#menu2{margin: 0 auto; height: 92px;}
+#menu2 ul{margin: 0;padding: 0; height: 92px;}
+#menuWrapper2{float: left;display: inline;height: 92px;width: 70%;}
+#secondpanel{height: 94px;position: relative;top: auto;z-index: 900;background: transparent url(../images/border-header.png) repeat-x bottom;width: 320px;}
+#zone2{margin: 0 auto;height: 92px;}
+.menuPosition2{display: inline;list-style: none;float: left;height: 92px;}
+.menuPosition2 a{padding: 0 10px;font-size: 1em;color: #00a1d5;text-decoration: none;font-family: Raleway,arial;font-style: normal;display: table-cell;vertical-align: middle;height: 92px;cursor: pointer;}
+/*.menuPosition2 a:hover{background-color: #f0f0f0;color: #324146;}*/
+.menuPosition2 a:hover{background-color: #f1f0ee;}
+
+/*wrapper*/
+#wrapper{margin: 0 auto;height: auto;}
+.grid{width: 320px;margin: 10px auto;}
+.grid ul li{list-style: none;}
+.cell1{float: left;overflow: hidden;position: relative;margin-left: 6px;margin-right: 6px;list-style: none;}
+.cell1 img{
+	width: 310px;height: 200px;
+}
+.cell2{float: left;margin-bottom: 12px;overflow: hidden;position: relative;margin-left: 6px;margin-right: 6px;width: 240px;list-style: none;}
+.cell2 article{color: #fff !important;
+background-color: #66c6e7;height: 371px;}
+.cell2 article:hover{background-color: #40b8e1;}
+.cell2 img{width: 100%;}
+.cell2 a{text-decoration: none;color: #fff;}
+.cell2 header{min-height: 58px;
+width: 100%;}
+.cuadro h3{margin-left: 58px;
+padding-bottom: 0;
+padding: 20px 12px 0 20px;
+word-wrap: break-word;}
+#cont-text{padding: 12px 20px 0;word-wrap:break-word;}
+.cell3{float: left;margin-bottom: 12px;overflow: hidden;position: relative;margin-left: 6px;margin-right: 6px;list-style: none;width: 240px;}
+.cell3 img{width: 100%;}
+.cell3 a{text-decoration: none;color: #fff;}
+.cell3 article{color: #fff !important;
+background-color: #00a0d7;height: 390px;}
+.cell3 article:hover{background-color: #40b8e1;}
+.cell4{float: left;margin-bottom: 12px;overflow: hidden;position: relative;margin-left: 6px;margin-right: 6px;list-style: none;width: 240px;}
+.cell4 img{width: 100%;}
+.cell4 a{text-decoration: none;color: #fff;}
+.cell4 article{color: #fff !important;
+background-color: #66c6e7;height: 390px;}
+.cell4 article:hover{background-color: #0080ac;}
+.cell5{float: left;margin-bottom: 12px;overflow: hidden;position: relative;margin-left: 6px;margin-right: 6px;list-style: none;width: 240px;}
+.cell5 img{width: 100%;}
+.cell5 a{text-decoration: none;color: #fff;}
+.cell5 article{color: #fff !important;
+background-color: #0080ac;height: 390px;}
+.cell5 article:hover{background-color: #00a0d7;}
+.ico-1{width: 58px;height: 58px;float: left;margin: 0;background-image: url(../images/icons.png);background-repeat: no-repeat;background-position: 0 0;background-color: rgba(0,0,0,0.18);}
+.ico-2{width: 58px;height: 58px;float: left;margin: 0;background-image: url(../images/icons.png);background-repeat: no-repeat;background-position: 0 -115px;background-color: rgba(0,0,0,0.18);}
+.ico-3{width: 58px;height: 58px;float: left;margin: 0;background-image: url(../images/icons.png);background-repeat: no-repeat;background-position: 0 -230px;background-color: rgba(0,0,0,0.18);}
+.ico-4{width: 58px;height: 58px;float: left;margin: 0;background-image: url(../images/icons.png);background-repeat: no-repeat;background-position: 0 -350px;background-color: rgba(0,0,0,0.18);}
+/*footer ticker*/
+footer{background: #0f4155;color: #fff;width: 100%;display: block;position: fixed;bottom: 0;z-index: 1000;height: 50px;}
+.triangulo{
+border-width: 20px 20px 0;
+border-color: #fff transparent;
+border-style: solid;
+width: 0;
+height: 0;
+margin-top: -15px;
+margin-left: 20px;
+
+}
 }
 
 /* Smartphones (landscape) ----------- */
