@@ -104,7 +104,7 @@ header{}
 /*footer ticker*/
 footer{background: #0f4155;color: #fff;width: 100%;display: block;position: fixed;bottom: 0;z-index: 1000;height: 50px;}
 .triangulo{
-border-width: 50px 20px 0;
+border-width: 20px 20px 0;
 border-color: #fff transparent;
 border-style: solid;
 width: 0;
@@ -189,7 +189,7 @@ background-color: #0080ac;height: 390px;}
 /*footer ticker*/
 footer{background: #0f4155;color: #fff;width: 100%;display: block;position: fixed;bottom: 0;z-index: 1000;height: 50px;}
 .triangulo{
-border-width: 50px 20px 0;
+border-width: 20px 20px 0;
 border-color: #fff transparent;
 border-style: solid;
 width: 0;
@@ -272,7 +272,7 @@ background-color: #0080ac;height: 390px;}
 /*footer ticker*/
 footer{background: #0f4155;color: #fff;width: 100%;display: block;position: fixed;bottom: 0;z-index: 1000;height: 50px;}
 .triangulo{
-border-width: 50px 20px 0;
+border-width: 20px 20px 0;
 border-color: #fff transparent;
 border-style: solid;
 width: 0;
@@ -358,7 +358,7 @@ background-color: #0080ac;height: 380px;}
 .left img{width: 100%;margin: 15px 0px;}
 .left h1{font-size: 2.3em;padding-top: 10px;}
 .triangulo{
-border-width: 50px 20px 0;
+border-width: 20px 20px 0;
 border-color: #fff transparent;
 border-style: solid;
 width: 0;
