@@ -271,6 +271,16 @@ background-color: #0080ac;height: 390px;}
 
 /*footer ticker*/
 footer{background: #0f4155;color: #fff;width: 100%;display: block;position: fixed;bottom: 0;z-index: 1000;height: 50px;}
+.triangulo{
+border-width: 50px 20px 0;
+border-color: #fff transparent;
+border-style: solid;
+width: 0;
+height: 0;
+margin-top: -15px;
+margin-left: 25%;
+
+}
 }
 
 /* Desktops and laptops ----------- */
