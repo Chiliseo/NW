@@ -334,9 +334,9 @@ border-color: #fff transparent;
 border-style: solid;
 width: 0;
 height: 0;
-top: -20px;
-left: 25%;
-position: relative;
+margin-top: -15px;
+margin-left: 25%;
+position: static;
 }
 }
 
