@@ -88,9 +88,9 @@ header{}
 #wrapper{margin: 0 auto;height: auto;}
 .grid{width: 100%;margin: 10px auto;}
 .grid ul li{list-style: none;}
-.cell1{float: left;overflow: hidden;position: relative;margin-left: 6px;margin-right: 6px;list-style: none;}
+.cell1{float: left;overflow: hidden;position: relative;margin-left: 6px;margin-right: 3px;list-style: none;}
 .cell1 img{
-	width: 98%;height: 200px;
+	width: 100%;height: 200px;
 }
 .cell2{float: left;margin-bottom: 12px;overflow: hidden;position: relative;margin-left: 6px;margin-right: 6px;width: 98%;list-style: none;}
 .cell2 article{color: #fff !important;
