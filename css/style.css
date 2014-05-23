@@ -57,6 +57,10 @@ body{margin: 0;padding: 0;color: #465a64;font-family: Raleway,arial;background-c
     -ms-transition: height 0.2s linear; 
     -o-transition: height 0.2s linear; 
     transition: height 0.2s linear; }
+    .fixed-menu{position: fixed;
+top: 0;
+z-index: 9;
+width: 100%;}
 /* Smartphones (portrait and landscape) --------960px--- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 /* Styles */
@@ -617,7 +621,6 @@ body{width: 100%;}
 .menuPosition{display: block;float: left;height: 37px;vertical-align: middle;text-align: center;padding: 0 5px;text-decoration: none;cursor: pointer;}
 .menuPosition a{height: 37px;display: block;line-height: 37px;color: #fff;text-decoration: none;font-family: arial;font-size: 15px;font-style: normal;word-wrap: break-word;padding: 0 6px;}
 .menuPosition a:hover{background-color: #f0f0f0;color: #324146;}
-header{}
 #menu{margin: 0 auto;}
 #menu ul{margin: 0;padding: 0;}
 #menuWrapper{width: 80%;/* margin-right: 4px; *//* margin-left: 4px; */height: 37px;margin: 0 auto;}

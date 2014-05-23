@@ -44,6 +44,8 @@ var dd = $("#dropdown"), // the dropdown container
 				if (currentHash === menuString[i]) {
 					// open menu; load the content for the hashed menu
 					dd.addClass("open");
+					$("#margenes").removeClass();
+					$("#margenes").addClass("margen-pequeno");
 					Megadropdowns.populateMenu(currentHash);
 					break; // break out of the loop once requirement is met, because it should only occur once
 				}
@@ -70,6 +72,8 @@ var dd = $("#dropdown"), // the dropdown container
 			// if the dropdown menu is already open, and the same link is clicked, close it
 			if (dd.hasClass("open") && dd.hasClass(currentLink)) {
 				dd.slideUp(speed, function () { 
+					$("#margenes").removeClass();
+					$("#margenes").addClass("margen-grande");
 					dd.removeClass();
 					dd.addClass("loading");
 					dd.html("");
@@ -80,6 +84,8 @@ var dd = $("#dropdown"), // the dropdown container
 			
 			// if the dropdown menu doesn't match the clicked link, populate it and open it if necessary
 			} else {
+				$("#margenes").removeClass();
+					$("#margenes").addClass("margen-grande");
 				Megadropdowns.populateMenu(currentLink);
 				menuLinks.removeClass("active");
 				$(this).addClass("active");
@@ -103,6 +109,8 @@ var dd = $("#dropdown"), // the dropdown container
 				// callback that runs after menu finishes loading
 				dd.removeClass("loading");
 				addCloseLink();
+				$("#margenes").removeClass();
+				$("#margenes").addClass("margen-pequeno");
 			});
 		});
 		// change the hash according to the clicked link
@@ -118,6 +126,8 @@ var dd = $("#dropdown"), // the dropdown container
 			document.location.hash = "";
 			dd.addClass("loading");
 			dd.html("");
+			$("#margenes").removeClass();
+			$("#margenes").addClass("margen-grande");
 		});
 	}
 

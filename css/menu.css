@@ -36,6 +36,7 @@ overflow: hidden;
 height: 175px;
 background: url(../images/border-header.png) repeat-x;
 background-size: 100% 100%;
+margin-top: 130px;
 
 	}
 	
@@ -111,3 +112,5 @@ border-bottom: 1px solid #f0f0f0;
 			text-align: center;
 		}
 		.link-list nav{margin-top: 25px;}
+		.margen-grande{margin-top: 135px;}
+		.margen-pequeno{margin-top: 10px;}
