@@ -106,7 +106,13 @@ vertical-align: middle;
 width: 100%;
 color: #00a1d8;
 border-bottom: 1px solid #f0f0f0;
-text-shadow: 0px 0px 1px #000000;
+/*text-shadow: 0px 0px 1px #000000;*/
+		}
+		.megamenu-link-text span:hover{
+background-color: #f1f0ee;
+color: #0A3F50;
+font-weight: bolder;
+
 		}
 		.aerospace_defence{border-top: 1px solid #f0f0f0;}
 		footer p {
