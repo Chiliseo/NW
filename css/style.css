@@ -677,7 +677,7 @@ header{}
 .menuPosition2 a:hover{background-color: #f1f0ee;color: #0A3F50;font-weight: bolder; }
 
 /*wrapper*/
-#wrapper{margin: 0 auto;height: 225%;margin-bottom: 115px;}
+#wrapper{margin: 0 auto;height: 1440px;margin-bottom: 115px;}
 .grid{width: 1008px;margin: 50px auto;}
 .grid ul li{list-style: none;}
 .cuadro{margin-top: -5px;}
