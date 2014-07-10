@@ -835,11 +835,11 @@ font-family: "ProximaNova", "Helvetica Neue", Helvetica, Arial, sans-serif;}
 .colum1-footer-final li {display: inline;float: left;list-style: none;margin-left: 5px;}
 .colum2-footer-final{float: left;}
 .colum2-footer-final li{float: left;display: inline;list-style: none;}
-.twitter{ height: 50px;width: 50px;display: block;background: url("../images/social-ico.png") no-repeat center 0;background-position: center 0;}
+.twitter{ height: 50px;width: 50px;display: block;background: url("../images/social-icons-footer.png") no-repeat center 0;background-position: center 0;}
 .twitter:hover { opacity: 0.8}
-.facebook{height: 50px;width: 50px;display: block;background: url("../images/social-ico.png") no-repeat center 0;background-position: center -200px;}
+.facebook{height: 50px;width: 50px;display: block;background: url("../images/social-icons-footer.png") no-repeat center 0;background-position: center -200px;}
 .facebook:hover { opacity: 0.8}
-.email{height: 50px;width: 50px;display: block;background: url("../images/social-ico.png") no-repeat center 0;background-position: center -400px;}
+.email{height: 50px;width: 50px;display: block;background: url("../images/social-icons-footer.png") no-repeat center 0;background-position: center -400px;}
 .email:hover { opacity: 0.8}
 }
 
