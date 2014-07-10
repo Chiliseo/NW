@@ -684,6 +684,7 @@ header{}
 .cuadro header{margin-bottom: 10px;}
 .cell1{float: left;overflow: hidden;position: relative;margin-left: 6px;margin-right: 6px;list-style: none;}
 .cell1 img{width: 660px;height: 380px;}
+.cell1 article{height: 380px;}
 .cell2{float: left;margin-bottom: 12px;overflow: hidden;position: relative;margin-left: 6px;margin-right: 6px;width: 324px;list-style: none;}
 .cell2 article{color: #fff !important;
 background-color: #66c6e7;height: 380px;}
